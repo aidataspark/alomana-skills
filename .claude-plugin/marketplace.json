@@ -1,0 +1,22 @@
+{
+  "name": "alomana-skills",
+  "owner": {
+    "name": "Alomana",
+    "url": "https://alomana.com"
+  },
+  "metadata": {
+    "description": "Official Alomana skill for Claude Code: use the Alomana platform API with an API key."
+  },
+  "plugins": [
+    {
+      "name": "alomana",
+      "source": "./",
+      "description": "Use the Alomana platform API with an API key: agents, workspaces, connectors, Files and Vox, read live from docs.alomana.com.",
+      "version": "1.0.0",
+      "homepage": "https://docs.alomana.com",
+      "repository": "https://github.com/aidataspark/alomana-skills",
+      "license": "MIT",
+      "category": "external-integrations"
+    }
+  ]
+}
